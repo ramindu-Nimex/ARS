@@ -22,7 +22,7 @@ const HomePage = () => {
               cursorColor = 'rgb(79 70 229)'
             />
           </h1>
-          <p className='text-sm md:text-base font-bodyFont leading-6 tracking-wide text-justify text-slate-700 dark:text-slate-400'>At Asha Global Recruitment Solutions, we specialize in providing top-tier manpower solutions tailored to meet the unique needs of your business. Our extensive pool of skilled laborers is ready to support various industries, ensuring the perfect match for your requirements. Committed to quality and reliability, we help you achieve operational excellence with a workforce you can trust.</p>
+          <p className='text-sm md:text-base font-bodyFont leading-6 tracking-wide text-justify text-slate-700 dark:text-gray-500'>At Asha Global Recruitment Solutions, we specialize in providing top-tier manpower solutions tailored to meet the unique needs of your business. Our extensive pool of skilled laborers is ready to support various industries, ensuring the perfect match for your requirements. Committed to quality and reliability, we help you achieve operational excellence with a workforce you can trust.</p>
        </div>
        <div className='w-full lgl:w-1/2 flex justify-center items-center relative shadow-xl'>
           <img src={banner} alt="" className='lgl:h-[500px] lgl:w-[750px] z-10' />

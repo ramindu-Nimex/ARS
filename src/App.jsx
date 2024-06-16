@@ -7,6 +7,7 @@ import OurPartners from "./Pages/OurPartners";
 import ChairmenPage from "./Pages/ChairmenPage";
 import ContactUs from "./Pages/ContactUs";
 import TestimonialsPage from "./Pages/TestimonialsPage";
+import FooterComponent from "./components/FooterComponent";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/chairmenMsg" element={<ChairmenPage />} />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
+        <FooterComponent />
       </Router>
     </>
   )
