@@ -14,15 +14,17 @@ const App = () => {
     <>
       <Router>
         <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutUsPage />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/partners" element={<OurPartners />} />
-          <Route path="/testimonials" element={<TestimonialsPage />} />
-          <Route path="/chairmenMsg" element={<ChairmenPage />} />
-          <Route path="/contact" element={<ContactUs />} />
-        </Routes>
+        <div className="min-h-screen">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutUsPage />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/partners" element={<OurPartners />} />
+            <Route path="/testimonials" element={<TestimonialsPage />} />
+            <Route path="/chairmenMsg" element={<ChairmenPage />} />
+            <Route path="/contact" element={<ContactUs />} />
+          </Routes>
+        </div>
         <FooterComponent />
       </Router>
     </>
