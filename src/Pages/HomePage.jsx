@@ -5,6 +5,7 @@ import payment from '/payment.png'
 import safety from '/safety.png'
 import service from '/service.png'
 import search from '/search.png'
+import certified from '/certified.jpg'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 const HomePage = () => {
@@ -35,7 +36,7 @@ const HomePage = () => {
             <div className='absolute bottom-0 lgl:h-[500px] lgl:w-[750px] p-3  rounded-tl-3xl rounded-br-3xl flex justify-center items-center gap-10 bg-slate-100 dark:bg-slate-900'/>
         </div>
       </section>
-      <div className="p-3 bg-amber-100 dark:bg-slate-700">
+      <div className="p-3 bg-purple-200 dark:bg-slate-700">
         <div className="flex flex-col sms:flex-row p-3 border border-indigo-500 justify-center items-center rounded-tl-3xl rounded-br-3xl text-center">
           <div className="flex justify-center flex-col flex-1">
               <h1 className='text-2xl uppercase mb-8 font-semibold'>What We Need</h1>
@@ -112,6 +113,19 @@ const HomePage = () => {
                   </p>
               </div>
           </div>
+      </div>
+
+      <div className="w-full max-w-lg mx-auto pb-10">
+          <h1 className='text-2xl uppercase mb-8 font-bold pt-5 text-center underline'>We are certified</h1>
+          <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-2xl flex flex-col group hover:bg-gradient-to-b bg-slate-200 dark:bg-slate-700 hover:from-purple-400 hover:to-purple-100 transition-colors duration-1000">
+            <div className='w-full h-full overflow-hidden rounded-lg'>
+              <img src={certified} alt="" width={500} className="w-full object-cover group-hover:scale-110 duration-300 cursor-pointer" />
+            </div>
+          </div>
+      </div>
+
+      <div >
+        <iframe className='w-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.847312533731!2d79.89635679999999!3d6.908854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2598d4f4c45ab%3A0x24ab3079dde678db!2sJana%20Jaya%20City%20Mall%20Rajagiriya%20(%20JJC%20MALL%20)!5e0!3m2!1sen!2slk!4v1718650937931!5m2!1sen!2slk" width="600" height="450" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   )

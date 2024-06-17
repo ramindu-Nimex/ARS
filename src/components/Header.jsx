@@ -1,9 +1,10 @@
-import { Button, Navbar } from "flowbite-react"
+import { Button, Navbar, TextInput } from "flowbite-react"
 import { FaMoon, FaSun } from "react-icons/fa";
 import ars from '/ars.png'
 import { Link, useLocation } from "react-router-dom"
 import { useSelector, useDispatch } from 'react-redux'
 import { toggleTheme } from '../redux/theme/themeSlice'
+import { AiOutlineSearch } from "react-icons/ai";
 
 const Header = () => {
    const path = useLocation().pathname
@@ -14,6 +15,9 @@ const Header = () => {
       <div>
          <img src={ars} alt="logo" width='100' />
       </div>
+      <form>
+         <TextInput type="text" placeholder="Search..." rightIcon={AiOutlineSearch} className="hidden lg:inline" />
+      </form>
       <div className="flex gap-2 md:order-2">
          <Button className="w-12 h-10 inline text-indigo-800" color="gray" pill onClick={() => dispatch(toggleTheme())}>
             {theme === 'light' ? <FaSun/> : <FaMoon/>}
@@ -38,9 +42,9 @@ const Header = () => {
          <Navbar.Link active={path === "/partners"} as={'div'}>
             <Link to="/partners" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Our partners</Link>
          </Navbar.Link>
-         <Navbar.Link active={path === "/testimonials"} as={'div'}>
+         {/* <Navbar.Link active={path === "/testimonials"} as={'div'}>
             <Link to="/testimonials" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Testimonials</Link>
-         </Navbar.Link>
+         </Navbar.Link> */}
          <Navbar.Link active={path === "/chairmenMsg"} as={'div'}>
             <Link to="/chairmenMsg" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Chairman's Message</Link>
          </Navbar.Link>
