@@ -27,25 +27,25 @@ const Header = () => {
       </div>
       <Navbar.Collapse>
          <Navbar.Link active={path === "/"} as={'div'}>
-            <Link to="/" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">Home</Link>
+            <Link to="/" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Home</Link>
          </Navbar.Link>
          <Navbar.Link active={path === "/about"} as={'div'}>
-            <Link to="/about" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">About Us</Link>
+            <Link to="/about" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">About Us</Link>
          </Navbar.Link>
          <Navbar.Link active={path === "/services"} as={'div'}>
-            <Link to="/services" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">Our Services</Link>
+            <Link to="/services" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Our Services</Link>
          </Navbar.Link>
          <Navbar.Link active={path === "/partners"} as={'div'}>
-            <Link to="/partners" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">Our partners</Link>
+            <Link to="/partners" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Our partners</Link>
          </Navbar.Link>
          <Navbar.Link active={path === "/testimonials"} as={'div'}>
-            <Link to="/testimonials" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">Testimonials</Link>
+            <Link to="/testimonials" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Testimonials</Link>
          </Navbar.Link>
          <Navbar.Link active={path === "/chairmenMsg"} as={'div'}>
-            <Link to="/chairmenMsg" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">Chairman's Message</Link>
+            <Link to="/chairmenMsg" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Chairman's Message</Link>
          </Navbar.Link>
          <Navbar.Link active={path === "/contact"} as={'div'}>
-            <Link to="/contact" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-[#ff014f] hover:underline">Contact Us</Link>
+            <Link to="/contact" className="text-indigo-800 font-semibold hover:text-indigo-900 dark:text-gray-400 dark:hover:text-indigo-500 hover:underline">Contact Us</Link>
          </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
