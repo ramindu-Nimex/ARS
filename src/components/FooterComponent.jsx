@@ -17,15 +17,15 @@ const FooterComponent = () => {
                <div className="">
                   <Footer.Title title="About"/>
                   <Footer.LinkGroup col>
-                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Projects</Footer.Link>
-                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Projects</Footer.Link>
+                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Services</Footer.Link>
+                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Partners</Footer.Link>
                   </Footer.LinkGroup>
                </div>
                <div className="">
                   <Footer.Title title="Follow Us"/>
                   <Footer.LinkGroup col>
-                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Projects</Footer.Link>
-                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Projects</Footer.Link>
+                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Facebook</Footer.Link>
+                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Instagram</Footer.Link>
                   </Footer.LinkGroup>
                </div>
                <div className="">
@@ -36,10 +36,10 @@ const FooterComponent = () => {
                   </Footer.LinkGroup>
                </div>
                <div className="">
-                  <Footer.Title title="Business Services"/>
+                  <Footer.Title title="Connect With Us"/>
                   <Footer.LinkGroup col>
-                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</Footer.Link>
-                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">Terms & Condition</Footer.Link>
+                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">No.251,2nd Floor,<br/>Janajaya City Mall,Rajagiriya.</Footer.Link>
+                     <Footer.Link href="#" target="_blank" rel="noopener noreferrer">+94 71 6 82 22 33 <br/>+94 71 6 82 22 33</Footer.Link>
                   </Footer.LinkGroup>
                </div>
             </div>

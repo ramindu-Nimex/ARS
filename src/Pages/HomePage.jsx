@@ -1,4 +1,5 @@
 import banner from '/banner.png'
+import home from '/home.png'
 import brandName from '/brandName.png'
 import manpower from '/manpower.jpg'
 import payment from '/payment.png'
@@ -32,7 +33,7 @@ const HomePage = () => {
             <p className='text-slate-700 dark:text-gray-500 my-2 text-justify font-medium '>At Asha Global Recruitment Solutions, we specialize in providing top-tier manpower solutions tailored to meet the unique needs of your business. Our extensive pool of skilled laborers is ready to support various industries, ensuring the perfect match for your requirements. Committed to quality and reliability, we help you achieve operational excellence with a workforce you can trust.</p>
         </div>
         <div className='w-full lgl:w-1/2 flex justify-center items-center relative shadow-xl'>
-            <img src={banner} alt="" className='lgl:h-[500px] lgl:w-[750px] z-10' />
+            <img src={home} alt="" className='lgl:h-[500px] lgl:w-[750px] z-10' />
             <div className='absolute bottom-0 lgl:h-[500px] lgl:w-[750px] p-3  rounded-tl-3xl rounded-br-3xl flex justify-center items-center gap-10 bg-slate-100 dark:bg-slate-900'/>
         </div>
       </section>

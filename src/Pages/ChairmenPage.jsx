@@ -2,7 +2,7 @@ import chairmen from '/chairmen.png'
 
 const ChairmenPage = () => {
   return (
-    <div className='p-3 bg-purple-200 dark:bg-slate-700 min-h-screen border border-teal-500 rounded-tl-3xl rounded-br-3xl m-5'>
+    <div className='p-3 bg-purple-200 dark:bg-slate-700 min-h-screen border border-indigo-600 rounded-tl-3xl rounded-br-3xl m-5'>
       <h1 className='text-2xl text-center mt-6 font-bold underline uppercase'>Chairman's Message</h1>
       <h1 className='text-center my-2 text-xl font-medium'>Message From Chairman.</h1>
       <div className='flex flex-col sms:flex-row p-3 sms:gap-40 justify-center items-center rounded-tl-3xl rounded-br-3xl'>

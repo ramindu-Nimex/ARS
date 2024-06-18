@@ -12,9 +12,9 @@ const Header = () => {
    const dispatch = useDispatch()
   return (
     <Navbar className="border-b-2 sticky top-0 bg-slate-200 shadow-md z-40">
-      <div>
+      <Link to='/' className="self-center">
          <img src={ars} alt="logo" width='100' />
-      </div>
+      </Link>
       <form>
          <TextInput type="text" placeholder="Search..." rightIcon={AiOutlineSearch} className="hidden lg:inline" />
       </form>
