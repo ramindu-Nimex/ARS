@@ -1,4 +1,4 @@
-import banner from '/banner.png'
+import about from '/about.jpg'
 
 const AboutUsPage = () => {
   return (
@@ -22,8 +22,8 @@ const AboutUsPage = () => {
             <li>Quality management process</li>
           </ul>
         </div>
-        <div className="flex-1 p-7">
-          <img src={banner} alt="" className='rounded-md' />
+        <div className="flex-1 p-3 sms:p-16">
+          <img src={about} alt="" className='rounded-md' />
         </div>
       </div>
     </div>

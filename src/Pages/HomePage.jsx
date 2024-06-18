@@ -8,6 +8,8 @@ import service from '/service.png'
 import search from '/search.png'
 import certified from '/certified.jpg'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import { Button } from 'flowbite-react'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   const [text] = useTypewriter({
@@ -31,6 +33,11 @@ const HomePage = () => {
               />
             </h1>
             <p className='text-slate-700 dark:text-gray-500 my-2 text-justify font-medium '>At Asha Global Recruitment Solutions, we specialize in providing top-tier manpower solutions tailored to meet the unique needs of your business. Our extensive pool of skilled laborers is ready to support various industries, ensuring the perfect match for your requirements. Committed to quality and reliability, we help you achieve operational excellence with a workforce you can trust.</p>
+            <Link to='/partners'>
+            <Button gradientDuoTone='purpleToPink' className='uppercase w-full'>
+               Our Partners
+            </Button>
+         </Link>
         </div>
         <div className='w-full lgl:w-1/2 flex justify-center items-center relative shadow-xl'>
             <img src={home} alt="" className='lgl:h-[500px] lgl:w-[750px] z-10' />
