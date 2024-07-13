@@ -49,7 +49,7 @@ const Services = () => {
         </Swiper>
       </div>
       <div className='text-center py-10 max-w-7xl mx-auto'>
-        <p className='text-slate-700 dark:text-gray-500 my-2 font-medium'>
+        <p className='my-2 font-medium'>
           We always try to satisfy our customer in our level best. <br /><br />
           How we archive this?? <br /><br />
           1. Competitive price. <br />
