@@ -25,7 +25,7 @@ const HomePage = () => {
   return (
     <div>
       <div className="text-center mt-16 mx-2">
-        <h1 className="md:text-6xl text-3xl text-[#800080] font-serif font-semibold tracking-wider">
+        <h1 className="md:text-6xl text-3xl text-purple-800 font-serif font-semibold tracking-wider [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)] homeText">
           Asha Global Recruitment Solutions
         </h1>
         <p className="md:text-xl text-lg text-purple-600 font-bold font-sans">
